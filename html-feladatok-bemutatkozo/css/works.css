@@ -75,8 +75,6 @@ main .wrapper section.works img {
     box-shadow: 3px 2px 15px black;
 }
 
-main .wrapper section.works div.content {}
-
 main .wrapper section.works div.content h3 {
     color: aliceblue;
     font-size: 2rem;

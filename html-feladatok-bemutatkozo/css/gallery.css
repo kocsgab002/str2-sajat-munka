@@ -59,6 +59,30 @@ header h1 {
     text-align: left;
 }
 
+section {
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 36px 36px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . .";
+
+}
+section img {
+    width: 430px;
+    height: 350px;
+    justify-self: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,.8);
+}
+
 /* footer */
 
 footer {
