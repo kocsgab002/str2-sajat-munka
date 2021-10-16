@@ -21,6 +21,7 @@ header {
 header nav {
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
 }
 
 header nav ul {
@@ -54,8 +55,40 @@ header nav ul li a:hover {
 header h1 {
     color: aliceblue;
     font-size: 3rem;
-    margin: 30px 10px;
+    margin: 30px 20px;
     text-align: left;
+}
+main .wrapper {
+    display: block;
+    margin: 0 20px;
+}
+
+main .wrapper section.works {
+    display: flex;
+    margin: 70px 0;
+}
+
+main .wrapper section.works img {
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 3px 2px 15px black;
+}
+
+main .wrapper section.works div.content {}
+
+main .wrapper section.works div.content h3 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+main .wrapper section.works div.content p {
+    color: aliceblue;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    text-align: justify;
 }
 
 /* footer */

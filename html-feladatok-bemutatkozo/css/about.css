@@ -21,6 +21,7 @@ header {
 header nav {
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, .2);
 }
 
 header nav ul {

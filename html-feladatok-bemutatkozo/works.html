@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="ROBOTS" content="index, follow">
-    <meta name="description" content="Kocsis Gábor bemutatkozó oldala. Webfejlesztés, fotógráfia, csillagászat">
-    <meta name="keywords" content="webfejlesztés, fotógráfia, csillagászat">
-    <link rel="stylesheet" href="./css/works.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ROBOTS" content="index, follow" />
+    <meta name="description" content="Kocsis Gábor bemutatkozó oldala. Webfejlesztés, fotógráfia, csillagászat" />
+    <meta name="keywords" content="webfejlesztés, fotógráfia, csillagászat" />
+    <link rel="stylesheet" href="./css/works.css" />
     <title>Bemutatkozó oldal</title>
 </head>
 
@@ -25,24 +25,84 @@
         <h1>Eddigi Munkáim</h1>
     </header>
     <main>
-        <section></section>
+        <div class="wrapper">
+            <section class="works">
+                <img src="./images/works_2.jpg" alt="weather" />
+                <div class="content">
+                    <h3>Időjárás Applikáció</h3>
+                    <p>
+                        Web alapú időjárás applikációt fejlesztettem HTML CSS és JavaSript
+                        segítségével. Az applikáció egy API segítségével kéri le az
+                        adatokat az
+                        <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+                        oldalról, ahová ingyenesen lehet regisztrálni. Az alkalmazás
+                        reszponzív, egyaránt használható asztali, táblagép és mobil
+                        nézetben is. Az app automatikusan lekéri (engedélykérés után) a
+                        felhasználó helyrajzi pozicióját és annak megfelelő időjárást
+                        jeleníti meg. A hőmérérsékletnek és az időjárási jellemzőknek
+                        megfelelően változik a háttérkép, a piktogramm. Az alap adatokon
+                        kívül még képes Holdnyugtát, Holdkeltét, Napnyugtát, Napkeltét is
+                        meghatározni. Kijelzésre került még a páratartlom, légnyomás,
+                        minimális és maximális hőmérséklet is. Fejleszési tervben szerepel
+                        még az 5 napos előrejelzés és a Holdfázisok megjelenítése is.
+                    </p>
+                </div>
+            </section>
+            <section class="works">
+                <img src="./images/works_1.jpg" alt="weather" />
+                <div class="content">
+                    <h3>Levendula virágbolt "Ügyfeleink véleménye" mintaoldal</h3>
+                    <p>
+                        A Levendula Virágbolt első internetes megjelenésére készült pályázat. A teljes weboldal egyetlen
+                        "Ügyfeleink véleménye" mintaoldala készült el. Az oldal kizárólag HTML, CSS és JavaSript
+                        segítségével épül fel. A logo és design is saját fejlesztés. A teszt szöveg Lorem ipsum
+                        segítségével készült, ami egy latint utánzó összefüggő szöveg, amelyet a nyomdászatban és az
+                        informatikában a betűtípusok, a tipográfia és az elrendezés bemutatására használnak. A feedback
+                        kártyák a hover effect-re animálódnak.
+                    </p>
+                </div>
+            </section>
+            <section class="works">
+                <img src="./images/works_3.jpg" alt="weather" />
+                <div class="content">
+                    <h3>Sakktábla rajzolás</h3>
+                    <p>
+                        Sakktábla rajzolását kaptam feladatul. A megoldás érdekessége, hogy kizárólag HTML és CSS
+                        felhasználásával készült. A minta rácsozata "table" elemekkel került megvalósításra. A sötét és
+                        világos mezők háttérképeit Adobe Photoshop-ban hoztam létre, egy valódi fa-erezetet megörökítő
+                        fotó segítségével. A figurákat a <a href="https://hu.wikipedia.org/wiki/Sakk">Wikipedia Sakk</a>
+                        oldaláról töltöttem le. A tábla külső szélei kaptak némi árnyékolást, a jobb 3D hatás elérésének
+                        érdekében. Az elkészült tábla forráskódját felajánlottam egy működő sakk progam vizuális
+                        megjelenítéséhez.
+                    </p>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="footer">
             <div class="social">
                 <ul>
-                    <li><a href="#">
+                    <li>
+                        <a href="#">
                             <ion-icon name="logo-instagram"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
                             <ion-icon name="logo-facebook"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
                             <ion-icon name="logo-twitter"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
                             <ion-icon name="logo-linkedin"></ion-icon>
-                        </a></li>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="links">
@@ -55,7 +115,7 @@
             </div>
             <div class="button"><a href="#title">A lap tetejére</a></div>
         </div>
-        <div class="copyright">© 2021 Kocsis Gábor Minden job fenntartva!</div>
+        <div class="copyright">© 2021 Kocsis Gábor Minden jog fenntartva!</div>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
