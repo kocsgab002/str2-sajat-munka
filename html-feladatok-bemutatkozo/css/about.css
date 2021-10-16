@@ -50,3 +50,107 @@ header nav ul li a:hover {
     padding: 2px 10px 13px 10px;
 
 }
+
+header h1 {
+    color: aliceblue;
+    font-size: 3rem;
+    margin: 30px 10px;
+    text-align: left;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    margin: 0px 30px;
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer div.footer {
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div.footer .social ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+footer div.footer .social ul li {
+    padding: 20px;
+    transition: .1s;
+}
+
+footer div.footer .social ul li:hover {
+    transform: translateY(-3px);
+}
+
+footer div.footer .social ul li a {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+footer div.footer .links {
+    display: flex;
+    align-items: center;
+}
+
+footer div.footer .links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+footer div.footer .links ul li {
+    transition: .1s;
+}
+
+footer div.footer .links ul li:hover {
+    transform: scale(1.1);
+}
+
+footer div.footer .links ul li a {
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+footer div.footer .button {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+footer div.footer .button a {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+footer div.footer .button a:hover {
+    transform: translate(1px, 1px);
+
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 10px;
+}
