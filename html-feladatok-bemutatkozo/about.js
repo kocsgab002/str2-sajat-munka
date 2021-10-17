@@ -1,3 +1,7 @@
+function  formSubmit() {
+    alert("Az űrlap elküldésre került");
+}
+
 function validateForm() {
     let name = document.querySelector('#name');
     let email = document.querySelector('#email');
@@ -10,7 +14,7 @@ function validateForm() {
     } else if (message.value.length < 20) {
         alert('Az üzenet nem lehet kevesebb mint 20 karakter');
     } else {
-        alert('minden ok')
+        formSubmit();
     }
 }
 
