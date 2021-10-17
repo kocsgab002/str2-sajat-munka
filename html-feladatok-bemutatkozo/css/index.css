@@ -68,6 +68,7 @@ main section.debut p {
     font-size: 1.3rem;
     line-height: 1.5rem;
     margin: 20px 0;
+    color: aliceblue;
 }
 
 main section.debut .pictures {
@@ -227,4 +228,89 @@ footer .copyright {
     font-size: 1.1rem;
     background-color: rgba(0, 0, 0, .4);
     padding: 10px;
+}
+
+@media screen and (max-width: 425px) {
+
+    header nav ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    header nav ul li {
+        margin: 5px 0px;
+    }
+
+    header nav ul li a {
+        display: inline;
+        font-size: 1.1rem;
+    }
+
+    header h1 {
+        color: aliceblue;
+        font-size: 1.8rem;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    main section.debut p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    main section.debut .pictures {
+        display: block;
+    }
+
+    main section.debut .pictures img {
+        height: 300px;
+        display: block;
+        margin: 10px auto;
+
+    }
+
+    main section.content h2 {
+        font-size: 1.5rem;
+        margin: 0 0 10px 0;
+    }
+    main section.content .skill_boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    main section.content .skill_boxes .box {
+        width: 95%;
+        height: 130px;
+        margin: 0 0 10px 0;
+    }
+    main section.content .skill_boxes .box h3 {
+        font-size: 1.2rem;
+        margin: 10px 0 0 0;
+    }
+    main section.content .skill_boxes .box p {
+        font-size: 1rem;
+        margin: 10px 10px;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    footer div.footer {
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .copyright {
+        font-size: 1rem;
+    }
+
+    footer div.footer .button {
+        margin: 10px 20px;
+    }
 }

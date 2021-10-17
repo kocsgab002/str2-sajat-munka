@@ -227,3 +227,76 @@ footer .copyright {
     background-color: rgba(0, 0, 0, .4);
     padding: 10px;
 }
+
+@media screen and (max-width: 425px) {
+
+    header nav ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    header nav ul li {
+        margin: 5px 0px;
+    }
+
+    header nav ul li a {
+        display: inline;
+        font-size: 1.1rem;
+    }
+    header h1 {
+        color: aliceblue;
+        font-size: 1.8rem;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    main section {
+        display: block;
+    }
+    main section img {
+        width: 280px;
+        height: auto;
+        margin: 0 auto;
+    }
+    main section .content p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin: 20px;
+    }
+    main section .content ul li, main section .content ol li {
+        font-size: 1rem;
+        margin: 0 50px;
+        
+    }
+    main h3 {
+        color: aliceblue;
+        font-size: 1.7rem;
+        margin: 30px 30px;
+        text-align: center;
+    }
+    main form input[type="button"] {
+        width: 100%;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    footer div.footer {
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .copyright {
+        font-size: 1rem;
+    }
+
+    footer div.footer .button {
+        margin: 10px 20px;
+    }
+}
