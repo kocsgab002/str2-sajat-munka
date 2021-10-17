@@ -25,7 +25,39 @@
         <h1>Rólam</h1>
     </header>
     <main>
-        <section></section>
+        <section>
+            <img src="./images/photo3.jpg" alt="profile pictures">
+            <div class="content">
+            <p>Kocsis Gábornak hívnak, 39 éves vagyok. Szakmámat szerint számítástechnikus vagyok, hivatásomat illetően
+                pedig szervizvezető vagyok a legnagyobb Dél-Kóreai telekommunikációs vállalatnál. Másfél évvel ezelőtt
+                kezdtem el ismerkedni a webfejlesztés világával. Jelenlegi ismereteim kimerülnek egyenlőre a HTML, CSS,
+                és alap JavaScript hármasban. Alapszintű tudásom van még Git, Bootstrap rendszerekben. Alapfokú angol nyelvtudással rendelkezem. 5 éve vagyok
+                házas, a feleségemmel Budapesten élek. Szerteágazó és sokféle hobbim van, ezek a teljesség igénye nélkül a következők:</p>
+            <ul>
+                <li>Csillagászat</li>
+                <li>Asztrofotózás</li>
+                <li>Amatőr természetfotózás</li>
+                <li>Kertészkedés</li>
+                <li>LEGO</li>
+                <li>chilipaprika termesztése, melyek közül a legerősebbek: <ol type="I">
+                        <li>Carolina Reaper</li>
+                        <li>Trinidad Moruga Scorpion</li>
+                        <li>7 Pot Douglah</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <h3>Írj nekem üzenetet</h3>
+        <form>
+            <label for="name">Név</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email cím</label>
+            <input type="email" name="email" id="email">
+            <label for="message">Üzenet</label>
+            <textarea name="message" id="message" cols="45" rows="6"></textarea>
+            <input type="button" value="Küldés" onclick="validateForm()">
+        </form>
     </main>
     <footer>
         <div class="footer">
@@ -57,6 +89,7 @@
         </div>
         <div class="copyright">© 2021 Kocsis Gábor Minden jog fenntartva!</div>
     </footer>
+    <script src="./about.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

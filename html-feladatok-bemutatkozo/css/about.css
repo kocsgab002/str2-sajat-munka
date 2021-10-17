@@ -55,8 +55,80 @@ header nav ul li a:hover {
 header h1 {
     color: aliceblue;
     font-size: 3rem;
-    margin: 30px 10px;
+    margin: 30px 30px;
     text-align: left;
+}
+
+section {
+    display: flex;
+}
+
+main section img {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+}
+
+main section .content p {
+    color: aliceblue;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    text-align: justify;
+    margin: 20px 10px;
+
+}
+
+main section .content ul li,
+main section .content ol li {
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin: 0 40px;
+
+}
+
+
+main h3 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 30px 30px;
+    text-align: left;
+}
+
+main form {
+    display: block;
+    max-width: 350px;
+    margin: 5px 30px 30px 30px;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+main form label {
+    display: block;
+}
+
+main form input {
+    display: block;
+    width: 100%;
+}
+
+main form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main form input[type="button"] {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+
+
+
 }
 
 /* footer */
